@@ -1,0 +1,147 @@
+/*|=============== VARIABLES ===============|*/
+/*|=============== ПЕРЕМЕННЫЕ ===============|*/
+:root {
+
+  /*|========== FONT-FAMILY ==========|*/
+  /*|CM| Main font-family */
+  /*|CM| Основное семейство шрифтов */
+  --primary-font-family: ;
+  /*|CM| Additional font-families */
+  /*|CM| Дополнительные семейства шрифтов */
+  --second-font-family: ;
+  --third-font-family: ;
+
+  /*|========== COLOR ==========|*/
+  /*|CM| Change favorite color (Color name - ) */
+  /*|CM| Изменить любимый цвет (Название цвета -) */
+  --hue-color: ;
+  /*|CM| HSL color mode */
+  /*|CM| HSL цветовая модель */
+  --primary-color: ;
+  /*|CM| Colors for events */
+  /*|CM| Цвета для событий */
+
+  /*|CM| Universal colors */
+  /*|CM| Универсальные цвета */
+
+  /*|========== FONT-WEIGHT ==========|*/
+  /*|CM| Main font-weight */
+  /*|CM| Основной вес шрифта */
+  --primary-font-weight: ;
+  /*|CM| Additional font-weights */
+  /*|CM| Дополнительные веса шрифта */
+  --second-font-weight: ;
+  --third-font-weight: ;
+  /*|CM| Different variations font-weight */
+  /*|CM| Разные вариации веса шрифта */
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-heavy: 900;
+
+  /*|========== FONT-SIZE ==========|*/
+  /*|CM| Base font-size ( .5rem = 8px, 1rem = 16px, 1.5rem = 24px ...) */
+  /*|CM| Базовый размер шрифта ( .5rem = 8px, 1rem = 16px, 1.5rem = 24px ...) */
+  --text-size-base: 1rem;
+  /*|CM| Different font-size options */
+  /*|CM| Разные вариации размера шрифта */
+  --text-size-min-tiny: calc(var(--text-size-base) - );
+  --text-size-min-small: calc(var(--text-size-base) - );
+  --text-size-min-medium: calc(var(--text-size-base) - );
+  --text-size-min-big: calc(var(--text-size-base) - );
+  --text-size-min-large: calc(var(--text-size-base) - );
+  --text-size-min-huge: calc(var(--text-size-base) - );
+  --text-size-tiny: calc(var(--text-size-base) - );
+  --text-size-small: calc(var(--text-size-base) - );
+  --text-size-medium: calc(var(--text-size-base) + );
+  --text-size-big: calc(var(--text-size-base) + );
+  --text-size-large: calc(var(--text-size-base) + );
+  --text-size-huge: calc(var(--text-size-base) + );
+  --text-size-max-tiny: calc(var(--text-size-base) + );
+  --text-size-max-small: calc(var(--text-size-base) + );
+  --text-size-max-medium: calc(var(--text-size-base) + );
+  --text-size-max-big: calc(var(--text-size-base) + );
+  --text-size-max-large: calc(var(--text-size-base) + );
+  --text-size-max-huge: calc(var(--text-size-base) + );
+  /*|CM| Responsive font-size reduction */
+  /*|CM| Адаптивный шрифт на снижение */
+  --desktop-layout: 1720;
+  --responsive-layout-1: 320px;
+  --responsive-layout-2: 320;
+  --desktop-size-1: 65;
+  --desktop-size-2: 65px;
+  --mobile-size-1: 20;
+  --mobile-size-2: 20px;
+  --responsive-size: (100vw - var(--responsive-layout-1)) / ((var(--desktop-layout) - var(--responsive-layout-2)) / (var(--desktop-size-1) - var(--mobile-size-1))) + var(--mobile-size-2);
+  /*|CM| Responsive font-size to increase */
+  /*|CM| Адаптивный шрифт на увеличение */
+  --desktop-layout: 1720;
+  --responsive-layout-1: 320px;
+  --responsive-layout-2: 320;
+  --desktop-size-1: 30;
+  --desktop-size-2: 30px;
+  --mobile-size-1: 80;
+  --mobile-size-2: 80px;
+  --responsive-size: var(--mobile-size-2) - (100vw - var(--responsive-layout-1)) / ((var(--desktop-layout) - var(--responsive-layout-2)) / (var(--mobile-size-1) - var(--desktop-size-1)));
+
+  /*|========== LINE-HEIGHT ==========|*/
+  /*|CM| Main line-height */
+  /*|CM| Основной межстрочный интервал */
+
+  /*|CM| Additional lines-heights */
+  /*|CM| Дополнительные межстрочные интервалы */
+
+  /*|========== BORDER-RADIUS ==========|*/
+  /*|CM| Main border-radius */
+  /*|CM| Основной радиус границы */
+  --primary-br: ;
+  /*|CM| Additional border-radiuses */
+  /*|CM| Дополнительные радиусы границ */
+  --second-br: ;
+
+  /*|========== BACKGROUND IMAGE ==========|*/
+  /*|CM| All background pictures are located here */
+  /*|CM| Здесь находятся все фоновые картинки */
+  --primary-bgi: ;
+
+  /*|========== BACKGROUND COLOR ==========|*/
+  /*|CM| Specifying a fallback color for background images */
+  /*|CM| Указываем резервный цвет для фоновых картинок */
+  --primary-fb-color: ;
+
+  /*|========== GAP ==========|*/
+  /*|CM| Specify the same indentation between blocks */
+  /*|CM| Указываем одинаковый отступ между блоками */
+  --primary-gap: ;
+
+  /*|========== TRANSITION ==========|*/
+  /*|CM| Duration of effects (most effective .2 to .4s) */
+  /*|CM| Длительность эффектов (самое эффективное от .2 до .4s) */
+  --fast-transition-duration: .2s;
+  --normal-transition-duration: .3s;
+  --slow-transition-duration: .4s;
+
+  /*|========== ANIMATION ==========|*/
+  /*|CM| Duration of animations (most effective .2 to .4s) */
+  /*|CM| Длительность анимаций (самое эффективное от .2 до .5s) */
+  --fast-animation-duration: .2s;
+  --normal-animation-duration: .3s;
+  --low-animation-duration: .4s;
+  --very-slow-animation-duration: .5s;
+
+  /*|========== Z-INDEX ==========|*/
+  /*|CM| Z-index for tooltip */
+  /*|CM| Z-index для всплывающей подсказки */
+  --z-tooltip: 10;
+  /*|CM| Z-index for fixed blocks */
+  /*|CM| Z-index для фиксированных блоков */
+  --z-fixed: 100;
+  /*|CM| Z-index for modal windows */
+  /*|CM| Z-index для модальных окон */
+  --z-modal: 1000;
+}
