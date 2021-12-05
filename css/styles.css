@@ -1,7 +1,5 @@
 /*|=============== OUT-OF-THE-BOX CSS SOLUTIONS ===============|*/
-/*|=============== ГОТОВЫЕ РЕШЕНИЯ НА CSS ===============|*/
 /*|CM| Used to hide elements without breaking accessibility */
-/*|CM| Используется для скрытия элементов без нарушения доступности */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -16,57 +14,38 @@
 
 /*|=============== STYLING THE BASIC ELEMENTS AND MIXES ===============|*/
 /*|CM| Elements like body, svg, path, etc. are usually found here. */
-/*|=============== СТИЛИЗАЦИЯ БАЗОВЫХ ЭЛЕМЕНТОВ И МИКСОВ ===============|*/
-/*|CM| Здесь обычно находятся такие элементы, как body, svg, path и т.д. */
 
+
+/*|EV| Describing CSS effects (such as - hover, active, focus)  */
 
 
 /*|=============== STYLING THE MAIN ELEMENTS ===============|*/
 /*|CM| This is usually where the header, section, and footer styles are located */
-/*|=============== СТИЛИЗАЦИЯ ОСНОВНЫХ ЭЛЕМЕНТОВ ===============|*/
-/*|CM| Здесь обычно находятся стили для шапки, секций и подвала */
-
 /*|=============== SITE HEADER ===============|*/
-/*|=============== ШАПКА САЙТА ===============|*/
+
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
-/*|EV| Описываем эффекты CSS (такие, как - hover, active, focus)  */
 
-/*|EV| Describing JS events (such as - click)  */
-/*|EV| Описываем события JS (такие, как - click)  */
 
-/*|=============== SECTION ===============|*/
-/*|=============== СЕКЦИЯ ===============|*/
+/*|=============== SECTION | HERO ===============|*/
 
-/*|EV| Describing CSS effects (such as - hover, active, focus)  */
-/*|EV| Описываем эффекты CSS (такие, как - hover, active, focus)  */
 
-/*|EV| Describing JS events (such as - click)  */
-/*|EV| Описываем события JS (такие, как - click)  */
+/*|=============== SECTION | LOCATION ===============|*/
 
-/*|=============== SECTION ===============|*/
-/*|=============== СЕКЦИЯ ===============|*/
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
-/*|EV| Описываем эффекты CSS (такие, как - hover, active, focus)  */
 
-/*|EV| Describing JS events (such as - click)  */
-/*|EV| Описываем события JS (такие, как - click)  */
 
-/*|=============== SECTION ===============|*/
-/*|=============== СЕКЦИЯ ===============|*/
+/*|=============== SECTION | OFFERS ===============|*/
+
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
-/*|EV| Описываем эффекты CSS (такие, как - hover, active, focus)  */
 
-/*|EV| Describing JS events (such as - click)  */
-/*|EV| Описываем события JS (такие, как - click)  */
+
+/*|=============== SECTION | BLOG ===============|*/
+
 
 /*|=============== SITE FOOTER ===============|*/
-/*|=============== ПОДВАЛ САЙТА ===============|*/
+
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
-/*|EV| Описываем эффекты CSS (такие, как - hover, active, focus)  */
-
-/*|EV| Describing JS events (such as - click)  */
-/*|EV| Описываем события JS (такие, как - click)  */

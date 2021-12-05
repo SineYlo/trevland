@@ -1,5 +1,37 @@
 /*|=============== CONNECTING FONTS ===============|*/
-/*|=============== ПОДКЛЮЧЕНИЕ ШРИФТОВ ===============|*/
 /*|CM| Local fonts */
-/*|CM| Локальные шрифты */
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/roboto-regular.woff2') format('woff2'),
+        url('../fonts/roboto/roboto-regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/roboto/roboto-medium.woff2') format('woff2'),
+        url('../fonts/roboto/roboto-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gelasio';
+  src: url('../fonts/gelasio/gelasio-medium.woff2') format('woff2'),
+        url('../fonts/gelasio/gelasio-medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gelasio';
+  src: url('../fonts/gelasio/gelasio-bold.woff2') format('woff2'),
+        url('../fonts/gelasio/gelasio-bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}

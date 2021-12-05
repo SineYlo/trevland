@@ -2,141 +2,81 @@
 <html lang="en">
 <head>
   <!--#========== PAGE ENCODING ==========#-->
-  <!--#========== КОДИРОВКА СТРАНИЦЫ ==========#-->
   <meta charset="UTF-8">
   <!--#========== SETTING PAGE RESPONSIVENESS ==========#-->
-  <!--#========== НАСТРОЙКА АДАПТИВНОСТИ СТРАНИЦЫ ==========#-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <!--#========== PAGE TITLE IN BROWSER ==========#-->
-  <!--#========== ЗАГОЛОВОК СТРАНИЦЫ В БРАУЗЕРЕ ==========#-->
-  <title>Title site</title>
+  <title>Trevland</title>
   <!--#========== PRE-LOADING FONTS ==========#-->
-  <!--#========== ПРЕДВАРИТЕЛЬНАЯ ЗАГРУЗКА ШРИФТОВ ==========#-->
-  <link rel="preload" href="fonts/" as="font" crossorigin>
-  <link rel="preload" href="fonts/" as="font" crossorigin>
-  <link rel="preload" href="fonts/" as="font" crossorigin>
+  <link rel="preload" href="fonts/roboto/roboto-regular.woff2" as="font" crossorigin>
+  <link rel="preload" href="fonts/roboto/roboto-medium.woff2" as="font" crossorigin>
+  <link rel="preload" href="fonts/gelasio/gelasio-bold.woff2" as="font" crossorigin>
   <!--#========== CONNECTING READY-MADE JAVASCRIPT SOLUTIONS ==========#-->
-  <!--#========== ПОДКЛЮЧЕНИЕ ГОТОВЫХ РЕШЕНИЙ НА JAVASCRIPT ==========#-->
-
+  <link rel="stylesheet" href="css/swiper-bundle.min.css" media="screen">
   <!--#========== INCLUDING STYLE FILES ==========#-->
-  <!--#========== ПОДКЛЮЧАЕМ ФАЙЛЫ СТИЛЕЙ ==========#-->
   <link rel="stylesheet" href="css/destyle.css?ver=1" media="screen">
   <link rel="stylesheet" href="css/fonts.css?ver=1" media="screen">
   <link rel="stylesheet" href="css/variables.css?ver=1" media="screen">
   <link rel="stylesheet" href="css/styles.css?ver=1" media="screen">
-  <link rel="stylesheet" href="css/media.css?ver=1" media="screen">
   <!--#========== PROVIDES INFORMATION ABOUT THE AUTHOR ==========#-->
-  <!--#========== ПРЕДОСТАВЛЯЕТ ИНФОРМАЦИЮ ОБ АВТОРЕ ==========#-->
   <link rel="me" href="https://sineylo-dev.ru">
-  <link rel="me" href="mailto:v.vavshchik@pm.me">
-  <!--#========== CONNECT FAVICON ==========#-->
-  <!--#========== ПОДКЛЮЧАЕМ ФАВИКОН ==========#-->
-  <link rel="shortcut icon" href="favicon.png">
-  <!--#========== APPLE TOUCH ICON (AT LEAST 200x200px) ==========#-->
-  <!--#========== ЗНАЧОК APPLE TOUCH (НЕ МЕНЕЕ 200x200px) ==========#-->
-  <link rel="apple-touch-icon" href="custom-icon.png">
-  <!--#========== TO RUN WEB APPLICATION IN FULL-SCREEN ==========#-->
-  <!--#========== ИСПОЛЬЗУЕТСЯ ДЛЯ ЗАПУСКА ПРИЛОЖЕНИЯ В ПОЛНОЭКРАННОМ РЕЖИМЕ ==========#-->
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <!--#========== STATUS BAR STYLE (DOES NOT WORK WITHOUT THE PREVIOUS) ==========#-->
-  <!--#========== СТИЛЬ СТРОКИ СОСТОЯНИЯ (НЕ РАБОТАЕТ БЕЗ ПРЕДЫДУЩЕГО) ==========#-->
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="me" href="mailto:contact@sineylo-dev.ru">
   <!--#========== DISABLING LINK FORMATION ON IOS DEVICES ==========#-->
-  <!--#========== ОТКЛЮЧАЕМ ФОРМИРОВАНИЕ ССЫЛКИ И АДРЕСА НА УСТРОЙСТВАХ ПОД УПРАВЛЕНИЕМ IOS ==========#-->
   <meta name="format-detection" content="telephone=no">
   <meta name="format-detection" content="address=no">
   <!--#========== SEO ==========#-->
-  <!--#========== СЕО ==========#-->
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta name="description" content="On our website you can find out interesting travel information, as well as book a hotel">
+  <meta name="keywords" content="travel, site, countries, excursions, info">
   <!--#========== BRIEF DESCRIPTION OF THE TOPIC OF THE PAGE ==========#-->
-  <!--#========== КРАТКОЕ ОПИСАНИЕ ТЕМЫ СТРАНИЦЫ ==========#-->
-  <meta name="subject" content="">
+  <meta name="subject" content="Tourism">
   <!--#========== CONTROLLING SEARCH ROBOTS ACCESS TO THE PAGE ==========#-->
-  <!--#========== УПРАВЛЕНИЕ ДОСТУПОМ ПОИСКОВЫХ РОБОТОВ К СТРАНИЦЕ ==========#-->
   <meta name="robots" content="none">
   <meta name="googlebot" content="none">
   <!--#========== PAGE AUTHOR ==========#-->
-  <!--#========== АВТОР СТРАНИЦЫ ==========#-->
-  <meta name="author" content="">
+  <meta name="author" content="SineYlo & Roman Vergunov">
   <!--#========== COPYRIGHT ==========#-->
-  <!--#========== КОПИРАЙТТ ==========#-->
-  <meta name="copyright" content="">
+  <meta name="copyright" content="Trevland">
   <!--#========== AUTHOR'S ADDRESS ==========#-->
-  <!--#========== АДРЕС АВТОРА ==========#-->
-  <meta name="address" content="">
+  <meta name="address" content="Russia">
   <!--#========== SETS THE COLOR OF THE BROWSER TAB ==========#-->
-  <!--#========== УСТАНАВЛИВАЕМ ЦВЕТ ВКЛАДКИ В БРАУЗЕРЕ ==========#-->
-  <meta name="theme-color" content="hsl(0, 0%, 100%)">
+  <meta name="theme-color" content="hsl(0 100% 0% / 30%)">
   <!--#========== THEMES TO BE USED ON THE SITE ==========#-->
-  <!--#========== ТЕМЫ КОТОРЫЕ ИСПОЛЬЗУЮТСЯ НА САЙТЕ ==========#-->
   <meta name="color-scheme" content="light">
   <!--#========== ADDS THE SITE TO THE HOME SCREEN AS AN ANDROID APP ==========#-->
-  <!--#========== ДОБАВЛЯЕТ САЙТ НА ГЛАВНЫЙ ЭКРАН КАК ПРИЛОЖЕНИЕ ДЛЯ ANDROID ==========#-->
   <meta name="mobile-web-app-capable" content="yes">
-  <!--#========== ESTABLISHES AGE RESTRICTION ==========#-->
-  <!--#========== УСТАНАВЛИВАЕТ ВОЗРАСТНОЕ ОГРАНИЧЕНИЕ ==========#-->
-  <meta name="rating" content="general">
-  <!--#========== GEOLOCATION ==========#-->
-  <meta name="ICBM" content="48.4827, 135.084">
-  <meta name="geo.position" content="48.4827;135.084">
-  <meta name="geo.region" content="ISO 3166-2:RU">
-  <meta name="geo.placename" content="Khabarovsk">
-  <!--#========== FACEBOOK SHARE BUTTON ==========#-->
-  <meta property="og:locale" content="ru_RU">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="my site">
-  <meta property="og:description" content="some page description">
-  <meta property="og:image" content="url">
-  <meta property="og:image:alt" content="photo description">
-  <meta property="og:url" content="http://localhost:3000/index.html">
-  <meta property="og:site_name" content="training ground">
-  <!--#========== TWITTER SHARE BUTTON ==========#-->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="site account">
-  <meta name="twitter:creator" content="SineYlo">
-  <meta name="twitter:url" content="url">
-  <meta name="twitter:title" content="my site">
-  <meta name="twitter:description" content="some page description">
-  <meta name="twitter:image" content="url">
-  <meta name="twitter:image:alt" content="photo description">
 </head>
 <body class="body">
   <!--#========== SITE HEADER ==========#-->
-  <!--#========== ШАПКА САЙТА ==========#-->
   <header class="site-header">
 
   </header>
   <!--#========== SITE MAIN ==========#-->
-  <!--#========== ОСНОВНАЯ ЧАСТЬ САЙТА ==========#-->
   <main class="site-main">
-    <!--#========== SECTION ==========#-->
-    <!--#========== СЕКЦИЯ ==========#-->
+    <!--#========== SECTION | HERO ==========#-->
     <section class="section-">
 
     </section>
-    <!--#========== SECTION ==========#-->
-    <!--#========== СЕКЦИЯ ==========#-->
-    <section class="section-">
+    <!--#========== SECTION | LOCATION ==========#-->
+    <section class="section-location">
 
     </section>
-    <!--#========== SECTION ==========#-->
-    <!--#========== СЕКЦИЯ ==========#-->
-    <section class="section-">
+    <!--#========== SECTION | OFFERS ==========#-->
+    <section class="section-offers">
+
+    </section>
+    <!--#========== SECTION | BLOG ==========#-->
+    <section class="section-blog">
 
     </section>
   </main>
   <!--#========== SITE FOOTER ==========#-->
-  <!--#========== ПОДВАЛ САЙТА ==========#-->
   <footer class="site-footer">
 
   </footer>
   <!--#========== CONNECT SCRIPTS ==========#-->
-  <!--#========== ПОДКЛЮЧЕНИЕ СКРИПТОВ ==========#-->
   <!--PS: Connecting external libraries and tools -->
-  <!--PS: Подключаем сторонние библиотеки и инструменты -->
+  <script defer src="js/swiper-bundle.min.js"></script>
   <!--PS: Including our script files -->
-  <!--PS: Подключаем наши файлы скриптов -->
   <script defer src="js/main.js"></script>
 </body>
 </html>
