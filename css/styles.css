@@ -14,9 +14,49 @@
 
 /*|=============== STYLING THE BASIC ELEMENTS AND MIXES ===============|*/
 /*|CM| Elements like body, svg, path, etc. are usually found here. */
+.html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
 
+.body {
+  font-family: var(--primary-font-family);
+  color: var(--black-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: var(--primary-br);
+  background-color: var(--primary-color);
+  color: var(--white-color);
+  line-height: var(--primary-lh);
+  transition: opacity var(--fast-transition-duration) ease-in-out;
+}
+
+.title {
+  font-family: var(--second-font-family);
+  font-size: var(--text-size-huge);
+  line-height: var(--third-lh);
+}
+
+.desc {
+  font-size: var(--text-size-medium);
+  line-height: var(--second-lh);
+  opacity: 0.6;
+}
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
+.btn:hover {
+  opacity: 0.6;
+}
 
 
 /*|=============== STYLING THE MAIN ELEMENTS ===============|*/
