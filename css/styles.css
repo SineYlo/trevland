@@ -20,6 +20,7 @@
 }
 
 .body {
+  padding-top: 2.1875rem;
   font-family: var(--primary-font-family);
   color: var(--black-color);
 }
@@ -62,16 +63,111 @@
   opacity: 0.6;
 }
 
+.btn:focus {
+  opacity: 0.6;
+}
+
 /*|=============== STYLING THE MAIN ELEMENTS ===============|*/
 /*|CM| This is usually where the header, section, and footer styles are located */
 /*|=============== SITE HEADER ===============|*/
+.site-header {
+  position: relative;
+}
 
+.site-header::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  min-height: 56.25rem;
+  top: -3.125rem;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: var(--primary-bgi);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.site-header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-header__logo {
+  transition: opacity var(--fast-transition-duration) ease-in-out;
+  outline: none;
+}
+
+.site-header__nav {
+  width: 29.375rem;
+  display: flex;
+  align-items: center;
+}
+
+.site-header__list {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-header__link {
+  color: var(--white-color);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--text-size-medium);
+  line-height: var(--primary-lh);
+  transition: opacity var(--fast-transition-duration) ease-in-out;
+  outline: none;
+}
+
+.site-header__button {
+  min-width: 10.125rem;
+  padding: 0.875rem 2.188rem;
+  outline: none;
+}
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
+.site-header__logo:focus {
+  opacity: 0.6;
+}
 
+.site-header__link:hover {
+  opacity: 0.6;
+}
+
+.site-header__link:focus {
+  opacity: 0.6;
+}
 
 /*|=============== SECTION | HERO ===============|*/
+.section-hero {
+  padding: 12rem 0 15.125rem 0;
+}
 
+.section-hero__title {
+  max-width: 50.25rem;
+  color: var(--white-color);
+  font-family: var(--second-font-family);
+  font-weight: var(--second-font-weight);
+  font-size: var(--text-size-max-tiny);
+  line-height: var(--fourth-lh);
+  margin-bottom: 2.3rem;
+}
+
+.section-hero__desc {
+  max-width: 28.625rem;
+  color: var(--white-color);
+  font-size: var(--text-size-medium);
+  line-height: var(--second-lh);
+  margin-bottom: 2.5rem;
+  opacity: 0.6;
+}
+
+.section-hero__button {
+  padding: 1.13rem 2.89rem;
+  outline: none;
+}
 
 /*|=============== SECTION | LOCATION ===============|*/
 .section-location_indent {
@@ -345,6 +441,139 @@
 }
 
 /*|=============== SITE FOOTER ===============|*/
+.site-footer {
+  background-color: var(--seventh-color);
+  width: 100%;
+  min-height: 21.75rem;
+}
 
+.site-footer__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4.375rem 0 6.25rem 0;
+}
+
+.site-footer__contacts {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-contacts__logo {
+  margin-bottom: 2.5rem;
+  transition: opacity var(--fast-transition-duration) ease-in-out;
+  outline: none;
+}
+
+.footer-contacts__text {
+  color: var(--black-color);
+  line-height: var(--second-lh);
+  letter-spacing: 0.06em;
+  margin-bottom: 0.625rem;
+}
+
+.footer-contacts__mail {
+  color: var(--black-color);
+  line-height: var(--second-lh);
+  letter-spacing: 0.06em;
+  margin-bottom: 1.250rem;
+}
+
+.footer-contacts__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-contacts__link {
+  display: inline-block;
+  background-repeat: no-repeat;
+  width: 1.25rem;
+  height: 1.25rem;
+  transition: opacity var(--fast-transition-duration) ease-in-out;
+  outline: none;
+}
+
+.footer-contacts__link_fb {
+  background-image: url("../images/social/fb.svg");
+}
+
+.footer-contacts__link_inst {
+  background-image: url("../images/social/inst.svg");
+}
+
+.footer-contacts__link_tw {
+  background-image: url("../images/social/tw.svg");
+}
+
+.footer-contacts__link_g {
+  background-image: url("../images/social/g.svg");
+}
+
+.site-footer__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-info__item {
+  margin-bottom: 1.25rem;
+}
+
+.footer-info__link {
+  color: var(--black-color);
+  font-weight: var(--primary-font-weight);
+  line-height: var(--primary-lh);
+  letter-spacing: 0.06em;
+  transition: opacity var(--fast-transition-duration) ease-in-out;
+  outline: none;
+}
+
+.footer-subscribe__title {
+  color: var(--black-color);
+  font-weight: var(--primary-font-weight);
+  font-size: var(--text-size-big);
+  line-height: var(--primary-lh);
+  letter-spacing: 0.06em;
+  margin-bottom: 2.625rem;
+}
+
+.form-subscribe__email {
+  width: 12.188rem;
+  min-height: 2.75rem;
+  border: 0.063rem solid var(--third-color);
+  border-radius: 0.313rem;
+  padding-left: 0.625rem;
+  margin-right: 2.188rem;
+  outline: none;
+}
+
+.footer-subscribe__button {
+  padding: 0.625rem 2.125rem;
+}
 
 /*|EV| Describing CSS effects (such as - hover, active, focus)  */
+.footer-contacts__logo:focus {
+  opacity: 0.6;
+}
+
+.footer-contacts__link:hover {
+  opacity: 0.6;
+}
+
+.footer-contacts__link:focus {
+  opacity: 0.6;
+}
+
+.footer-info__link:hover {
+  opacity: 0.6;
+}
+
+.footer-info__link:focus {
+  opacity: 0.6;
+}
+
+.form-subscribe__email::placeholder {
+  color: var(--black-color);
+  line-height: var(--primary-lh);
+  letter-spacing: 0.06em;
+}
+
+
