@@ -83,9 +83,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: var(--primary-bgi);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: linear-gradient(to top, var(--eighth-color), var(--eighth-color)), url("../images/hero/hero-picture.jpg") center / cover no-repeat;
   z-index: -1;
 }
 
@@ -141,8 +139,12 @@
 }
 
 /*|=============== SECTION | HERO ===============|*/
+.section-hero_indent {
+  margin-bottom: 19.375rem;
+}
+
 .section-hero {
-  padding: 12rem 0 15.125rem 0;
+  padding: 12.5rem 0 2.5rem 0;
 }
 
 .section-hero__title {
